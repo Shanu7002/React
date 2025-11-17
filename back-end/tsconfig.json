@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Generates modern JavaScript
+    "module": "commonjs", // Node.js module system
+    "rootDir": "./src", // Where your .ts code is
+    "outDir": "./dist", // Where the compiled .js code goes
+    "esModuleInterop": true, // Helps with library imports
+    "strict": true // Enforces better code quality
+  }
+}
