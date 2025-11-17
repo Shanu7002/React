@@ -8,16 +8,16 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Dependency directories
-node_modules/
+**/node_modules/
 
 # Production build
-dist/
-dist-ssr/
+**/dist/
+**/dist-ssr/
 
 # Environment files
-.env
-.env.local
-.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
 
 # Local Firebase / Supabase / etc.
 *.cache
