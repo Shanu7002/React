@@ -1,25 +1,78 @@
-# To-Do List
+# 🚀 Fullstack To-Do List
 
-A simple and clean To-Do List application built with React.  
-This project serves as a template that uses custom hooks, context, React Router, and a clean architecture folder structure.
+A clean and simple **Fullstack To-Do List application** built with a **React front-end** and a **TypeScript back-end**.  
+This project serves as a template for scalable applications using **custom hooks**, **Context API**, **React Router**, and a **minimal API** ready to evolve into a full backend.
 
-## Features
+---
 
-- Add, remove and toggle tasks  
-- State management using Context  
-- Reusable logic through custom hooks  
-- Organized architecture for scalability  
-- Ready to integrate with a future back-end API  
+## ✨ Features
 
-## Tech Stack
+### **Front-end**
 
-- React + Vite  
-- React Router  
-- Context API  
-- Custom Hooks  
+- Add, toggle and delete tasks
+- State management with **Context API**
+- Reusable logic via **custom hooks**
+- Navigation handled by **React Router**
+- Clean and scalable folder structure
 
-## How to Run
+### **Back-end**
+
+- Minimal task API (no database required)
+- In-memory data storage
+- Built with **Node.js + TypeScript**
+- Easy to extend for future persistence (MongoDB, Postgres, etc.)
+
+---
+
+## 🧱 Tech Stack
+
+### **Front-end**
+
+- React + Vite
+- React Router
+- Context API
+- Custom Hooks
+
+### **Back-end**
+
+- Node.js
+- TypeScript
+- Express
+
+---
+
+## 📁 Project Structure
+
+/project
+/frontend → React application
+/backend → TypeScript API
+
+---
+
+## ▶️ How to Run
+
+### **1. Clone the repository**
 
 ```bash
+🖥️ Front-end (React)
+Install dependencies
+cd frontend
 npm install
+Start the development server
 npm run dev
+Front-end available at:
+http://localhost:5173
+
+🔌 Back-end (TypeScript API)
+Install dependencies
+cd ../backend
+npm install
+Start the API
+npm run dev
+API available at:
+http://localhost:3001
+
+🔗 Connecting Front-end and Back-end
+In the frontend .env file:
+VITE_API_URL=http://localhost:3000
+```
