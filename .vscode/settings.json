@@ -1,14 +1,14 @@
 {
   "files.exclude": {
-    "./front-end/node_modules": true,
-    ".gitignore": false,
-    ".eslintrc.js": true,
-    "eslint.config.js": true,
-    "package-lock.json": true,
-    "package.json": true,
-    "vite.config.js": true,
-    "README.md": true,
-    "objective.md": true
+    "front-end/node_modules": true,
+    "front-end/.gitignore": false,
+    "front-end/.eslintrc.js": true,
+    "front-end/eslint.config.js": true,
+    "front-end/package-lock.json": true,
+    "front-end/package.json": true,
+    "front-end/vite.config.js": true,
+    "front-end/README.md": true,
+    "front-end/objective.md": true
   },
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
