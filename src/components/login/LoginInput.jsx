@@ -30,7 +30,7 @@ export default function LoginInput() {
       <form onSubmit={handleSubmit} className="login-forms">
         <p>Email</p>
         <input
-          name="login-username"
+          name="login-email"
           type="email"
           placeholder="email"
           {...email}
