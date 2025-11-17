@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    "./front-end/node_modules": true,
+    ".gitignore": false,
+    ".eslintrc.js": true,
+    "eslint.config.js": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "vite.config.js": true,
+    "README.md": true,
+    "objective.md": true
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, .npmrc",
+    "vite.config.js": "*.config.js, *.config.ts",
+    "index.html": "*.ico, *.png, *.svg"
+  }
+}
