@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import useInput from "../../hooks/onChange";
 import "../../pages/login/login.css";
-import "./loginInput.css";
+import "./loginStyle.css";
 
 export default function LoginInput() {
   const navigate = useNavigate();

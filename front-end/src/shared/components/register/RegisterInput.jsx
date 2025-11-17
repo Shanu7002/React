@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import useInput from "../../hooks/onChange";
 import "../../pages/register/register.css";
-import "./registerInput.css";
+import "./registerStyle.css";
 
 export default function RegisterInput() {
   const navigate = useNavigate();
@@ -12,8 +12,8 @@ export default function RegisterInput() {
   function handleSubmit(e) {
     e.preventDefault(); //prevent page reload
 
-    //all my login logic here
-    console.log("Login: ", name.value, email.value, password.value);
+    //all my register logic here
+    console.log("Register: ", name.value, email.value, password.value);
   }
 
   function goToLogin() {
@@ -52,7 +52,11 @@ export default function RegisterInput() {
         <a onClick={goToLogin}>Alredy have an account?</a>
       </div>
       <div className="register-buttons">
-        <button type="button" className="register-registerButton">
+        <button
+          type="button"
+          onClick={handleSubmit}
+          className="register-registerButton"
+        >
           Register
         </button>
       </div>
