@@ -25,6 +25,7 @@ lerna-debug.log*
 
 # Vite & ESLint
 .eslintcache
+**/.vite
 
 # Editor settings
 .vscode/*
