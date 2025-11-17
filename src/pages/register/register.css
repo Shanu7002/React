@@ -13,7 +13,7 @@ html {
   align-items: center;
 }
 
-.login-container {
+.register-container {
   background-color: var(--login-background-color);
   box-shadow: 8px 5px 10px var(--login-button);
 
