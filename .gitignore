@@ -31,6 +31,8 @@ dist-ssr/
 !.vscode/extensions.json
 .idea/
 .DS_Store
+objective.md
+objetivoAtual.md
 
 # Windows / VS Build files
 *.suo

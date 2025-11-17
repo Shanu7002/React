@@ -1,0 +1,32 @@
+:root {
+  --background-color: #faf0dc;
+  --login-background-color: #eaeaea;
+  --login-title: #4d4422;
+  --login-button: #a3b18a;
+}
+
+html {
+  background-color: var(--background-color);
+  background-image: url("https://www.transparenttextures.com/patterns/assault.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: var(--login-background-color);
+  box-shadow: 8px 5px 10px var(--login-button);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20%;
+  padding: 70px 100px 70px 100px;
+  max-width: 400px;
+  width: 80%;
+
+  border: var(--login-button);
+  border-radius: 40px;
+}

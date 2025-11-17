@@ -1,0 +1,8 @@
+.login-title {
+  color: var(--login-title);
+
+  margin-bottom: 50px;
+
+  font-family: sans-serif;
+  font-size: 40px;
+}

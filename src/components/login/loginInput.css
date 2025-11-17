@@ -1,0 +1,58 @@
+.formsLogin-forgotPassword {
+  display: flex;
+  flex-direction: column;
+
+  & .login-forms {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+
+    & p {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: 10px;
+    }
+    & input {
+      width: 250px;
+      padding: 20px 15px 20px 15px;
+
+      font-size: large;
+
+      border-width: 0;
+      border-radius: 25px;
+    }
+
+    & input:focus {
+      border-width: 1px;
+      border-color: #6c7b5b;
+    }
+
+    & .login-forgotPassword {
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+
+      & a {
+        color: purple;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+button {
+  margin-top: 15px;
+
+  padding: 15px 10px 15px 10px;
+  width: 140px;
+  font-size: large;
+
+  border-radius: 30px;
+  border-color: var(--login-button);
+  border-width: 2.5px;
+}
+
+.login-loginButton {
+  background-color: var(--login-button);
+}
